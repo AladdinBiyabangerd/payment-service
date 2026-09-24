@@ -14,7 +14,7 @@ import static org.springframework.http.HttpStatus.NO_CONTENT;
 
 @RequestMapping("api/v1/payments")
 @RequiredArgsConstructor
-public class PaymentControllerr {
+public class PaymentController {
 
     private final PaymentService paymentService;
 
@@ -24,5 +24,4 @@ public class PaymentControllerr {
     public String pay(@RequestHeader("Accept-Language")String lang, @RequestParam String userName, @RequestParam BigDecimal amount) {
         return paymentService.pay(userName, amount);
     }
-
 }
