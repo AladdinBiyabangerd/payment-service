@@ -17,3 +17,4 @@ public class PaymentRequest {
 
     private BigDecimal amount;
 }
+
