@@ -14,7 +14,7 @@ import static org.springframework.http.HttpStatus.NO_CONTENT;
 
 @RequestMapping("api/v1/payments")
 @RequiredArgsConstructor
-public class PaymentControllerr {
+public class PaymentController {
 
     private final PaymentService paymentService;
 
@@ -26,6 +26,6 @@ public class PaymentControllerr {
         return paymentService.pay(userName, amount);
     }
 
-
+hnbzdcm
 
 }
