@@ -13,6 +13,7 @@ public class PaymentService {
 
 //    private final PaymentRepository paymentRepository;
 
+
     public String pay(String userName, BigDecimal amount) {
         var paymentEntity = PaymentEntity.builder()
                 .name(userName)
