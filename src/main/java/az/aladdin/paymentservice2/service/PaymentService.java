@@ -20,6 +20,11 @@ public class PaymentService {
                 .amount(amount)
                 .build();
 
+//        var paymentEntity = PaymentEntity.builder()
+//                .name(userName)
+//                .amount(amount)
+//                .build();
+
       //  PaymentEntity save = paymentRepository.save(paymentEntity);
 
         return "Username: " + userName + " amount " + amount;
