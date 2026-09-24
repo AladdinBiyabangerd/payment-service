@@ -22,12 +22,9 @@ public class PaymentControllerr {
     // api/v1/payments?userName=Ali
     @PostMapping()
     public String pay(@RequestHeader("Accept-Language")String lang, @RequestParam String userName, @RequestParam BigDecimal amount) {
-     asd
+        asd
         return paymentService.pay(userName, amount);
     }
-sad
-
-
 
 
 
