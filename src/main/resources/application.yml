@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payment-service-2
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3315/
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:password}
